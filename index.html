@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEST ONLINE FOOD DELIVERY SERVIC IN INDIA ONLINEMEALS.COM</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" media="screen and (max-width: 845px)" href="sharuk.css"> 
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+
+        #navbar{
+            display: flex;
+            align-items: center;
+        
+            top: 0px;
+        }
+        #logo{
+            margin: 10px 34px;
+        }
+        #logo img{
+            width: 3px 6px;
+            height: 60px;
+            border-radius: 4px;
+        }
+
+        #navbar{
+            position: relative;
+            position: sticky;
+        }
+       #navbar ul{
+            display: flex;
+            
+            
+        }
+
+        #navbar::before{
+            content: "";
+            background-color: black;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.4;
+
+        }
+        #navbar ul li{
+            
+            list-style: none;
+            font-size: 1.3rem;
+            
+        }
+        #navbar ul li a{
+            color: black;
+         display: block;
+         padding: 3px 22px;
+         border-radius: 20px;
+         text-decoration: none;
+         font-family: 'Dela Gothic One', cursive;
+        
+        }
+
+        #navbar ul li a:hover{
+            color: white;
+        background-color: black;
+        }
+
+        /* home section  */
+
+        #home{
+            display: flex;
+            flex-direction: column;
+            padding: 3px 200px;
+            height: 638px;
+            justify-content: center;
+            align-items: center;
+        }
+        #home::before{
+            content: "";
+            background: url(food2.webp) no-repeat center center/cover;
+            position: absolute;
+            height: 100%;
+            
+            width: 100%;
+            z-index: -1;
+            opacity: 0.85;
+        }
+        #home h1{
+            color: rgb(94, 6, 6);
+            font-size: 3.8rem;
+
+            
+        }
+        #home p{
+            color: rgb(37, 4, 4);
+            text-align: center;
+            font-size: 1.1rem;
+        }
+        /* services sectio  */
+        
+
+        #services{
+            margin: 34px;
+            display: flex;
+           
+            
+        }
+        #services .box{
+            border: 2px solid brown;
+            padding: 34px;
+            margin: 3px 6px;
+            border-radius: 28px;
+            background: #f2f2f2;
+           
+
+            
+        }
+        #services.box img{
+            height: 100px;
+        }
+        .box img{
+            width: 160px;
+            height: 160px;
+            margin: auto;
+            display: block;
+        }
+
+        .btn{
+            padding: 6px 20px;
+            border: 2px solid white;
+            background-color: brown;
+            color: white;
+            margin: 17px;
+            font-size: 1.5rem;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .box h2{
+            text-align: center;
+            padding: 12px;
+        
+           
+        }
+        /* .services h1{
+            text-align: center;
+            margin: 110px;
+            font-size: 45px;
+           
+        } */
+        .h-primary{
+            font-size: 3.8rem;
+            padding: 12px;
+            margin: 80px;
+            text-align: center;
+        }
+        /* CLIENT SECTION  */
+        #client-section{
+            
+            
+
+        }
+
+        #client-section::before{
+            content: "";
+            position: absolute;
+            background: url('buik.jpg')no-repeat center center;
+            width: 100%;
+            height: 50%;
+            z-index: -1;
+            opacity: 0.4;
+        }
+        #clients{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+       #clients img{
+       height: 124px;
+       }
+       .client-item{
+           padding: 50px;
+       }
+
+       /* CONTACT SECTION  */
+
+       #contact{
+           position: relative;
+       }
+       #contact::before{
+           content: "";
+           position: absolute;
+           width: 100%;
+           height: 100%;
+           z-index: -1;
+           opacity: 0.7;
+           background: url('contact.webp');
+       }
+
+       footer{
+           background:black;
+           color: white;
+           padding: 9px 20px;
+           text-align: center;
+       }
+       #contact-box{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           padding: bottom 34px; ;
+       }
+       #contact-box input,
+       #contact-box textarea{
+           width: 100%;
+           padding: 0.5rem;border-radius: 9px;
+           font-size: 1.1rem;
+       }
+       #contact-box form{
+            width: 40%;
+
+       }
+      #contact label{
+          font-size: 30px;
+      }
+      #navbar ul ul{
+          position: absolute;
+          display: none;
+      }
+      #navbar ul li:hover > ul{
+          display: block;
+      }
+           </style>
+
+          
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="sharuk.jpg.jpg" alt="online meal.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services">Services</a>
+            <!-- <ul>
+                <li><a href="#">Veg Services</a></li>
+                <li><a href="#">No-Veg Services</a></li>
+                <li><a href="#">Delevery Services</a></li>
+            </ul> -->
+            </li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to Myonlinemeal</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem laboriosam blanditiis provident nostrum recusandae maxime, beatae ab, perferendis, nobis dolores placeat. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem laboriosam blanditiis provident nostrum recusandae maxime</p>
+        <button class="btn">Order Now</button>
+
+    </section>
+
+    <section class="services">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="burger.jpg" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos deleniti magni dicta quibusdam consectetur amet voluptatem, nesciunt quasi corrupti, corporis, sunt harum?</p>
+            </div>
+            <div class="box">
+                <img src="buik.jpg" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos deleniti magni dicta quibusdam consectetur amet voluptatem, nesciunt quasi corrupti, corporis, sunt harum? </p>
+            </div>
+            <div class="box">
+                <img src="delivery.webp" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos deleniti magni dicta quibusdam consectetur amet voluptatem, nesciunt quasi corrupti, corporis, sunt harum? </p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+         <h1 class="h-primary center">Our Client</h1>
+         <div id="clients">
+             <div class="client-item">
+                 <img src="dellblank2.png" alt="our client">
+             </div>
+             <div class="client-item">
+                <img src="hpblank.png" alt="our client">
+            </div>
+            <div class="client-item">
+                <img src="microblank2.png" alt="our client">
+            </div>
+            <div class="client-item">
+                <img src="dellblank2.png" alt="our client">
+            </div>
+           
+         </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="from-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="from-group">
+                    <label for="Email">Email</label>
+                    <input type="Email" name="Email" id="name" placeholder="Enter your Email">
+                </div>
+                <div class="from-group">
+                    <label for="Phone">Phone Number</label>
+                    <input type="phone" name="Phone Number" id="name" placeholder="Enter your Phone ">
+                </div>
+                <div class="from-group">
+                    <label for="message">Message</label>
+                   <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            copyright &copy;www.myonlinemeal.com All rights reserved
+        </div>
+    </footer>
+</body>
+</html>
